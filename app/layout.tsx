@@ -1,20 +1,20 @@
-// app/layout.tsx
 import "./globals.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Dosbre Ltd",
-  description: "Ease Your Process",
+export const metadata: Metadata = {
+  title: "DOSBRE LTD",
+  description: "Clarity, structure, and intelligent workflow guidance.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
-        <Header />
-        <main className="dosbre-main">{children}</main>
-        <Footer />
+        {children}
       </body>
     </html>
   );
