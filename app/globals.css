@@ -1,3 +1,207 @@
+.dosbre-root {
+  min-height: 100vh;
+  background: #000;
+  color: #ffd700;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+}
+
+.dosbre-main {
+  flex: 1 1 auto;
+  padding: 2rem 3vw 4rem 3vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.section-block {
+  margin-bottom: 0;
+  padding: 2.5rem 2vw;
+  background: #111;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px #ffd70011;
+  width: 100%;
+  max-width: 900px;
+  align-self: center;
+}
+
+@media (max-width: 900px) {
+  .dosbre-main {
+    padding: 1rem 1vw 2rem 1vw;
+    max-width: 100vw;
+  }
+  .section-block {
+    padding: 1.2rem 0.5rem;
+    max-width: 100vw;
+  }
+  .dosbre-hero {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  .hero-aside {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #000;
+  color: #ffd700;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+/* HOMEPAGE STYLES */
+.dosbre-root {
+  min-height: 100vh;
+  background: #000;
+  color: #ffd700;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.dosbre-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3vw 1.5rem 3vw;
+  background: transparent;
+}
+
+.dosbre-logo {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: #ffd700;
+  text-shadow: 0 2px 16px #222;
+}
+
+.dosbre-nav {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+.dosbre-nav button {
+  background: none;
+  border: none;
+  color: #ffd700;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+.dosbre-nav button:hover {
+  background: #ffd70022;
+  color: #fff;
+}
+
+.dosbre-main {
+  padding: 2rem 3vw 4rem 3vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dosbre-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.hero-content {
+  flex: 1 1 60%;
+}
+.hero-text {
+  margin-bottom: 2rem;
+}
+.hero-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffd700;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 16px #222;
+}
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #fffbe6;
+  margin-bottom: 1rem;
+}
+.hero-body {
+  font-size: 1.15rem;
+  color: #ffd700cc;
+  margin-bottom: 2rem;
+}
+.hero-buttons {
+  display: flex;
+  gap: 1.2rem;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #ffd700 60%, #fffbe6 100%);
+  color: #000;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 12px #ffd70033;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary:hover {
+  background: #fffbe6;
+  color: #000;
+}
+.btn-secondary {
+  background: none;
+  color: #ffd700;
+  border: 1.5px solid #ffd700;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-secondary:hover {
+  background: #ffd700;
+  color: #000;
+}
+.hero-aside {
+  flex: 0 0 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-lumi-img, .lumi-image {
+  border-radius: 50%;
+  box-shadow: 0 4px 32px #ffd70044;
+  background: #111;
+}
+.section-block {
+  margin-bottom: 3rem;
+  padding: 2rem 1.5rem;
+  background: #111;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px #ffd70011;
+}
+.section-block h2 {
+  color: #ffd700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.section-block p {
+  color: #fffbe6;
+  font-size: 1.1rem;
+}
 /* ABOUT PAGE STYLES */
 
 .dosbre-page {

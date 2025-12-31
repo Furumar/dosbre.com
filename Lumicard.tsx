@@ -18,7 +18,7 @@ export default function LumiCard() {
       <div className="hero-lumi-role">Speaker for Absolute Truth</div>
 
       <p className="hero-lumi-quote">
-        “You carry the responsibility. I ease the process.”
+        "You carry the responsibility. I ease the process."
       </p>
     </aside>
   );

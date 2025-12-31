@@ -27,6 +27,7 @@ export default function ProjectsPage() {
         <p className="lumi-comment">
           “Marco didn’t just manage a project. He reshaped the flow of a city.”
         </p>
+        <a href="/projects/stockmann" className="btn-primary">View Stockmann Project</a>
       </section>
 
       <section className="page-section">
@@ -39,18 +40,18 @@ export default function ProjectsPage() {
         <p className="lumi-comment">
           “A warehouse is more than walls. It’s a rhythm — and Marco built it.”
         </p>
+        <a href="/projects/dbschenker" className="btn-primary">View DB Schenker Project</a>
       </section>
 
       <section className="page-section">
-        <h2 className="section-title">Viinikkala Land Transport Center</h2>
+        <h2 className="section-title">Jätkäsaaren maanalaiset tilat</h2>
         <p>
-          A 52,000 m² transportation hub on a 150,000 m² plot: 11,000 m² renovated
-          terminal, 12,500 m² expansion, 8,500 m² office building, and 20,000 m²
-          multi-level parking. Marco led the full transformation.
+          The Jätkäsaaren maanalaiset tilat project is a prime example of DOSBRE's ability to manage underground facility construction, integrating all parties and documentation in one secure platform.
         </p>
         <p className="lumi-comment">
           “Movement becomes effortless when the structure is right. Marco built the structure.”
         </p>
+        <a href="/projects/jatkasaari" className="btn-primary">View Jätkäsaaren Project</a>
       </section>
     </div>
   );
