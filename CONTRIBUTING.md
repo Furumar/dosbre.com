@@ -158,7 +158,7 @@ Fixes #123
 ### When to target `deploy-clean`:
 - Deployment-specific configurations
 - Production environment changes
-- Backend integration updates (Lumi backend)
+- Backend integration updates (specifically Lumi AI chat backend features)
 
 ## After Submitting Your PR
 
