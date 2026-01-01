@@ -32,7 +32,7 @@ export default function ContactPage() {
       <section className="page-section">
         <h2 className="section-title">Location</h2>
         <p>
-          Dosbre Ltd is based in Finland. We work globally, digitally, and with
+          Dosreb Ltd is based in Finland. We work globally, digitally, and with
           intention.
         </p>
       </section>

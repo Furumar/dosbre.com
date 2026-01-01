@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="dosbre-footer">
-      <div>© Dosbre Ltd</div>
+      <div>© Dosreb Ltd</div>
 
       <div className="footer-links">
         <Link href="/">Home</Link>

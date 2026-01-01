@@ -13,7 +13,7 @@ export default function HomePage() {
 
       {/* HEADER */}
       <header className="dosbre-header">
-        <div className="dosbre-logo">DOSBRE LTD</div>
+        <div className="dosbre-logo">DOSREB LTD</div>
         <nav>
           <ul className="dosbre-nav">
             <li><button onClick={() => scrollToId("what-is-dosbre")}>Service</button></li>

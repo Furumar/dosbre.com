@@ -17,7 +17,7 @@ export default function HomePage() {
 
       {/* HEADER */}
       <header className="dosbre-header">
-        <div className="dosbre-logo">DOSBRE LTD</div>
+        <div className="dosbre-logo">DOSREB LTD</div>
         <nav>
           <ul className="dosbre-nav">
             <li><button onClick={() => scrollToId("about")}>About</button></li>
@@ -132,7 +132,7 @@ export default function HomePage() {
         <div className="footer-socials">
           <a href="#" aria-label="LinkedIn">LinkedIn</a>
         </div>
-        <div className="footer-copy">&copy; {new Date().getFullYear()} DOSBRE LTD</div>
+        <div className="footer-copy">&copy; {new Date().getFullYear()} DOSREB LTD</div>
       </footer>
 
     </div>

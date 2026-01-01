@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="dosbre-header">
       <div className="dosbre-logo">
-        <Link href="/">DOSBRE LTD</Link>
+        <Link href="/">DOSREB LTD</Link>
       </div>
 
       <nav>
