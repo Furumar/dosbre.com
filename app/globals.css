@@ -4,8 +4,10 @@
   color: #ffd700;
   font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
   scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
 }
 
 .dosbre-main {
@@ -28,6 +30,8 @@
   width: 100%;
   max-width: 900px;
   align-self: center;
+  scroll-snap-align: start;
+  scroll-margin-top: 80px;
 }
 
 @media (max-width: 900px) {
