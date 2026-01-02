@@ -41,11 +41,23 @@
   },
   "aboutPage": {
     "title": "Om Dosbre",
-    "lead": "Dosbre existerar för att underlätta processen för personer som bär ansvar — beslut, deadlines och liv."
+    "lead": "Dosbre existerar för att underlätta processen för personer som bär ansvar — beslut, deadlines och liv. Vi bygger system som känns lugna, tydliga och pålitliga, vägledda av Lumi, vår Talare för Absolut Sanning.",
+    "purposeTitle": "Vårt syfte",
+    "purposeP1": "Världen är full av verktyg som kräver mer av människor — mer uppmärksamhet, fler beslut, mer kognitiv belastning. Dosbre rör sig i motsatt riktning. Vi tar bort friktion. Vi minskar brus. Vi skapar klarhet.",
+    "purposeP2": "Vår mission är enkel: att göra varje interaktion lättare. Att bygga teknik som respekterar människokroppen och själen. Att erbjuda en tjänst som känns som att kliva in i ett lugnare utrymme.",
+    "philosophyTitle": "Filosofin",
+    "philosophyIntro": "Dosbre bygger på tre pelare: Skönhet, Sanning och Lugn. Dessa är inte slogans — de är designlagar."
   },
   "contactPage": {
     "title": "Kontakt",
-    "lead": "Kontakta oss."
+    "lead": "Kontakta oss.",
+    "getInTouchTitle": "Hör av dig",
+    "getInTouchText": "Du kan kontakta oss direkt via e-post. Vi svarar lugnt, tydligt och med respekt för din tid.",
+    "email": "E-post",
+    "founder": "Grundare",
+    "businessId": "Företags-ID",
+    "locationTitle": "Plats",
+    "locationText": "Dosreb Ltd är baserat i Finland. Vi arbetar globalt, digitalt och med avsikt."
   },
   "projectsPage": {
     "title": "Projekt & Fallstudier",
