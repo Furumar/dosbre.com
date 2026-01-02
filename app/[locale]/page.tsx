@@ -36,8 +36,8 @@ export default function HomePage() {
               </p>
               <div className="hero-buttons">
                 <button className="btn-primary" onClick={() => scrollToId("projects")}>{t('hero.exploreProjects')}</button>
-                <Link href={`/${locale}/lumi`} className="btn-secondary">{t('hero.meetLumi')}</Link>
-                <Link href={`/${locale}/demo`} className="btn-secondary">{t('hero.requestDemo')}</Link>
+                <Link href={`/${locale}/lumi`} className="btn-secondary-link">{t('hero.meetLumi')}</Link>
+                <Link href={`/${locale}/demo`} className="btn-secondary-link">{t('hero.requestDemo')}</Link>
               </div>
             </div>
             <aside className="hero-aside">

@@ -359,6 +359,27 @@ html {
   color: #ffed4e;
 }
 
+.btn-secondary-link {
+  background: transparent;
+  color: #ffd700;
+  font-weight: 600;
+  border: 2px solid rgba(255, 215, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-secondary-link:hover {
+  background: rgba(255, 215, 0, 0.1);
+  border-color: #ffd700;
+  transform: translateY(-2px);
+  color: #ffed4e;
+}
+
 .hero-aside {
   flex: 0 0 320px;
   display: flex;
